@@ -1,0 +1,32 @@
+:root {
+  --logo-clr-blue: #4d5ae5;
+  --logo-clr-dark: #2e2f42;
+  --logo-clr-light: #f4f4fd;
+  --bgrond-hdr: #e7e9fc;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.logo {
+  color: var(--logo-clr-blue);
+  font-family: Raleway;
+  width: 71px;
+  height: 21px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header {
+  background-color: var(--bgrond-hdr);
+}
+a {
+  text-decoration: none;
+}
+.logo-clr-dark {
+  color: var(--logo-clr-dark);
+}
