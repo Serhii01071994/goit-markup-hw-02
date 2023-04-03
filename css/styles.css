@@ -210,7 +210,11 @@ body {
   background-color: var(--portfolio-bgr);
 }
 
-.btn-item {
+.btn-item-all,
+.btn-item-website,
+.btn-item-app,
+.btn-item-desing,
+.btn-item-market {
   font-family: 'Roboto', sans-serif;
   color: var(--portfolio-btn-txt);
   font-style: normal;
