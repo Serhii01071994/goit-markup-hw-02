@@ -210,7 +210,7 @@ body {
   background-color: var(--portfolio-bgr);
 }
 
-.btn-item-all {
+.btn-item {
   font-family: 'Roboto', sans-serif;
   color: var(--portfolio-btn-txt);
   font-style: normal;
@@ -226,107 +226,33 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 69px;
-  height: 48px;
   border: 1px solid var(--portfolio-btn-border);
   border-radius: 4px;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+.btn-item-all {
+  width: 69px;
+  height: 48px;
 }
 
 .btn-item-website {
-  font-family: inherit;
-  color: var(--portfolio-btn-txt);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: var(--portfolio-btn);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   width: 116px;
   height: 48px;
-  border: 1px solid var(--portfolio-btn-border);
-  border-radius: 4px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
 .btn-item-app {
-  font-family: inherit;
-  color: var(--portfolio-btn-txt);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: var(--portfolio-btn);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   width: 78px;
   height: 48px;
-  border: 1px solid var(--portfolio-btn-border);
-  border-radius: 4px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
 .btn-item-desing {
-  font-family: inherit;
-  color: var(--portfolio-btn-txt);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: var(--portfolio-btn);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   width: 101px;
   height: 48px;
-  border: 1px solid var(--portfolio-btn-border);
-  border-radius: 4px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
 }
 .btn-item-market {
-  font-family: inherit;
-  color: var(--portfolio-btn-txt);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: var(--portfolio-btn);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   width: 116px;
   height: 48px;
-  border: 1px solid var(--portfolio-btn-border);
-  border-radius: 4px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
 }
 .btn-item:hover,
 .btn-item:focus {
@@ -344,8 +270,8 @@ body {
 }
 .project-cards {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.2;
   font-style: normal;
   letter-spacing: 0.02em;
   color: var(--main-color);
